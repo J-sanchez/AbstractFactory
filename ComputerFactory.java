@@ -1,6 +1,6 @@
 public class ComputerFactory extends AbstractFactory {
     @Override
-    public COmputer getComputer(String computerType) {
+    public Computer getComputer(String computerType) {
         if (computerType.equalsIgnoreCase("Laptop")) {
             return new Laptop();
         }
